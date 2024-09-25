@@ -3,23 +3,27 @@ package assignmentt.assign02;
 public class Account {
     String name;
      int balance;
-    private static String bankName = "SBI";
-     int pin;
-    Account(){
+     int accNo;
 
-    }
 
-    Account(String name, int balance, int pin)
+    Account(String name, int balance, int accNo)
     {
         this.name = name;
         this.balance = balance;
-        this.pin = pin;
+        this.accNo = accNo;
+    }
+
+    public void deposit(int amount){
+        balance = balance + amount;
+    }
+    public void withdraw(int amount){
+       if(balance>amount) balance = balance - amount;
+       else System.out.println("Insufficient Balance");
     }
     public void display(){
         System.out.println("Name: " +name);
         System.out.println("Balance: " +balance);
-        System.out.println("Bank name: " +bankName);
-        System.out.println("PIN: " +pin);
+        System.out.println("Account number: " +accNo);
 
     }
 }
