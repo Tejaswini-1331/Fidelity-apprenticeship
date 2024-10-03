@@ -12,7 +12,4 @@ assigment -2
 ![Screenshot 2024-09-30 170102](https://github.com/user-attachments/assets/43735ee7-21de-48a4-a8af-1b2f022af259)
 ![Screenshot 2024-09-30 170220](https://github.com/user-attachments/assets/28f6492c-409a-4d5e-987d-d915a86d24e6)
 
-
-
-
-
+"C:\Users\a776741\OneDrive - Fidelity Technology Group, LLC\TrainingFidelity\assignment 8.pdf"
