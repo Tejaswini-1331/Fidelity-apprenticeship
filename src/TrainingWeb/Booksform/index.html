@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function al(event){
+          alert("You have successfully submitted the form")
+        }
+    </script>
+</head>
+<body>
+    <header>
+       <div>
+        <h1>A simple form</h1>
+        <h3>Form fundamentals</h3>
+       </div>
+    </header>
+    <body>
+        <div>
+            <form >
+                <fieldset>
+                    <legend>Customer Info</legend>
+                    <label for="name">Name:</label>
+                        <input type="text">
+                    <br>
+                    <br>
+                    <label for="phone">telephone:</label>
+                        <input type="number">
+                    <br>
+                    <br>
+                    <label for="mail">E-mail: </label>
+                        <input type="email">
+                </fieldset>   
+            </form>
+            <br><br>
+
+            <form action="booksfrom" class="booksform">
+                <fieldset>
+                    <legend>Books</legend>
+                    <label for="books"></label>
+                    <select name="books" id="books">
+                     <option value="book">HTML5 - Bruce Lawson and Remy 
+                        Sharp 
+                        </option>
+                     <option value="book">HTML5 - Up and Running - Mark 
+                        Pilgrim 
+                        </option>
+                     <option value="book">Head First HTML5 Programming - Eric 
+                        Freeman 
+                       </option>
+                     <option value="book"> Mastering HTML, CSS and JavaScript -
+                        Laura Lemay</option>
+                     <option value="book"></option>
+                    </select> Quantity maximum:</label> <input type="number" min="1" max="5">
+           
+                </fieldset>
+            </form><br>
+            <button onclick="{al()}">Submit</button>
+        </div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+
+.chart{
+    margin-left:35%;
+}
+h1{
+    color:#FF00FF;
+    font-style: italic;
+}
+table{
+    background-color:#F0F0F0;
+}
+td{
+    text-align: center;
+}
+caption{
+    text-align: left;
+    font-size:bold;
+}
+thead{
+    background-color: #800000;
+}
+#tr1,#tr3,#tr5{
+    background-color: #ff0080;
+}
+#tr2,#tr4{
+    background-color:#00ffff ;
+}
