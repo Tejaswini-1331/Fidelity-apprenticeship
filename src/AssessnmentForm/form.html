@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <h1 id="f">AC Maintanence Service</h1>
+    <form class="f">
+       
+        <div class="form-group">
+            <div>
+            <label for="customername">Customer Name</label>
+            </div>
+           <div> <input type="text" id="customername" placeholder="Enter your name" required></div>
+        </div>
+        <div class="form-group">
+            <div><label for="gender">Gender</label></div>
+            <div class="gen">
+               <div class="g"> 
+                <input type="radio" id="male" name="gender" required>
+                <label for="male">Male</label>
+            </div>
+               <div class="g"> 
+                <input type="radio">
+                <label for="female" name="gender" id="female" required>female</label></div>
+              </div>
+        </div>
+        <div class="form-group">
+            <label for="mobileNumber">Mobile Number</label>
+            <input type="tel" id="mobileNumber" placeholder="Enter your mobile number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="E-mail">E-mail</label>
+            <input type="email" id="E-mail" placeholder="Enter your mobile number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="acTypes">AC Type</label>
+            <input list="acTypes" id="acType" required>
+            <datalist id="acTypes">
+                <option value="Split">
+                <option value="Window">
+                <option value="Centralized">
+                <option value="Portable">
+            </datalist>
+         </div>
+    
+        <div class="form-group">
+            <label for="serviceType">Service Type</label>
+            <select id="serviceType" required>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Repair">Repair</option>
+                <option value="Gas Refill">Gas Refill</option>
+            </select>
+        </div>
+        
+       <div class="form-group">
+        <label for="date">Appointment date</label>
+        <input type="date" id="date" required>
+       </div>
+
+       <div class="form-group">
+        <div><label for="year">Yearly Maintainence</label></div>
+        <div><input type="checkbox">
+            <label for="select">Select if required</label></div>
+       </div>
+
+       <div class="from-group">
+         <label for="durat">Duration in months</label>
+         <input type="range" min="0" max="6">
+       </div>
+
+       <div class="butt">
+        <button class="sub" type="submit" value="submit" onclick="{alert('Your appointment has been booked')}">Submit</button>
+        <button class="clr" type="reset" value="clear">Clear</button>
+       </div>
+
+       <div class="para">
+        <p>Hello your Service appointment for AC has been booked</p>
+       </div>
+    
+    
+    </form>
+
+   
+   
+
+
+        
+
+
+
+    </form>
+    
+</body>
+</html>
