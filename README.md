@@ -16,3 +16,9 @@ assigment -2
 ![Screenshot 2024-10-03 171843](https://github.com/user-attachments/assets/f639408a-8bc7-4d7e-a4d9-879bf4c35b8f)
 ![Screenshot 2024-10-03 171857](https://github.com/user-attachments/assets/3e1306f3-61da-4347-b50f-b467b6d61ba4)
 
+![Screenshot 2024-10-07 163142](https://github.com/user-attachments/assets/e8180438-7177-40c3-9d62-e90c10002654)
+![Screenshot 2024-10-07 163211](https://github.com/user-attachments/assets/c48a8eb3-eef8-4fce-b7f6-1cefa11fff7b)
+![Screenshot 2024-10-07 163248](https://github.com/user-attachments/assets/e2ee394e-a198-46f3-a5b1-93b68695cb91)
+![Screenshot 2024-10-07 163819](https://github.com/user-attachments/assets/9eedbb6b-d5b4-4dde-9c84-517ee5e08012)
+
+
