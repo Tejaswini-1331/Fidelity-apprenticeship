@@ -1,0 +1,50 @@
+header{
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+body{
+    background-color:pink ;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+    text-align:left;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  li,a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .au{
+    color:white;
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    font-size: medium;
+    font-style: italic;
+  }
+  .aboutbody{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+
+  .aboutbody  img{
+    width:400px;
+    height:300px;
+    border: 1px solid palevioletred;
+  }
