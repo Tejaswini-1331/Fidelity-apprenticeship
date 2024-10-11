@@ -22,3 +22,9 @@ assigment -2
 ![Screenshot 2024-10-07 163819](https://github.com/user-attachments/assets/9eedbb6b-d5b4-4dde-9c84-517ee5e08012)
 
 
+
+Assignment SQL
+![Screenshot 2024-10-11 152608](https://github.com/user-attachments/assets/e6c05718-ddfd-4128-aace-c75ca21c7d88)
+
+![Screenshot 2024-10-11 154456](https://github.com/user-attachments/assets/df1068fd-f7ba-474b-8759-f13b84138fb4)
+
